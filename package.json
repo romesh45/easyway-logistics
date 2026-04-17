@@ -1,5 +1,5 @@
 {
-  "name": "easyway-backend",
+  "name": "easyway-logistics",
   "version": "1.0.0",
   "description": "EasyWay Logistics Platform – Node.js/Express/MongoDB Backend",
   "main": "server.js",

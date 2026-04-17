@@ -109,6 +109,5 @@ const bookingSchema = new mongoose.Schema(
 
 bookingSchema.index({ sender: 1, status: 1 });
 bookingSchema.index({ owner: 1, status: 1 });
-bookingSchema.index({ bookingRef: 1 });
 
 module.exports = mongoose.model('Booking', bookingSchema);

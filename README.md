@@ -7,7 +7,7 @@
 ## 📁 Project Structure
 
 ```
-easyway-backend/
+easyway-logistics/
 ├── config/
 │   └── db.js                   # MongoDB connection
 ├── controllers/
@@ -54,14 +54,14 @@ easyway-backend/
 
 ### 1. Install Dependencies
 ```bash
-cd easyway-backend
+cd easyway-logistics
 npm install
 ```
 
 ### 2. Configure Environment
 Edit `.env` (already created with defaults):
 ```env
-PORT=5000
+PORT=5001
 MONGO_URI=mongodb://127.0.0.1:27017/easyway
 JWT_SECRET=your_strong_secret_here
 CLIENT_ORIGIN=http://127.0.0.1:5500
@@ -94,7 +94,7 @@ npm run dev
 # Production
 npm start
 ```
-Server starts at: **http://localhost:5000**
+Server starts at: **http://localhost:5001**
 
 ---
 
@@ -324,7 +324,7 @@ Add this to your `easyway-v3.html` before the closing `</script>` tag:
 
 ```javascript
 // ── API Configuration ─────────────────────────────────────────
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'http://localhost:5001/api';
 
 // Helper: authenticated fetch
 async function apiFetch(endpoint, options = {}) {

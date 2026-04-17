@@ -122,7 +122,6 @@ const reportSchema = new mongoose.Schema(
 );
 
 reportSchema.index({ reporter: 1, status: 1 });
-reportSchema.index({ reportedDriver: 1 });
 
 const Report = mongoose.model('Report', reportSchema);
 
