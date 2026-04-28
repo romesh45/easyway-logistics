@@ -22,7 +22,7 @@ India has over **12 million trucks** but no reliable marketplace connecting frei
 
 The result: inflated shipping costs, delayed supply chains, and zero paper trail when disputes arise.
 
-**EasyWay models this problem as an engineering challenge.** It treats loads and vehicles as structured objects, applies programmatic matching rules, and automates every stage from quote to delivery confirmation — the same primitives used by Rivigo, BlackBuck, and Porter at scale.
+**EasyWay models this problem as an engineering challenge.** It treats loads and vehicles as structured objects, applies programmatic matching rules, and automates every stage from quote to delivery confirmation — the same primitives used by Rivigo, BlackBuck, and Porter at scale
 
 ---
 
