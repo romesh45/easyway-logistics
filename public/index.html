@@ -3185,7 +3185,7 @@
     const PERMIT_LABELS = { all_india: 'All India Permit', state: 'State Permit', local: 'Local Only', preferred: 'Preferred Routes' };
     const PERMIT_ICONS = { all_india: '🌍', state: '📍', local: '🏙️', preferred: '🗺️' };
 
-    const API = 'http://localhost:5001/api';
+    const API = window.location.origin + '/api';
 
     // No JWT token means the user is in offline demo mode
     function isDemoMode() { return !localStorage.getItem('ew_token'); }

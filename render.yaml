@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: easyway-logistics
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: GST_DRIVER_RATE
+        value: "0.05"
+      - key: PLATFORM_FEE_RATE
+        value: "0.03"
+      - key: GST_PLATFORM_RATE
+        value: "0.18"
+      - key: ADVANCE_PAYMENT_PCT
+        value: "0.30"
+      - key: CANCELLATION_PENALTY_MIN
+        value: "500"
+      - key: CANCELLATION_PENALTY_MAX
+        value: "1500"
+      - key: RATE_LIMIT_WINDOW_MS
+        value: "900000"
+      - key: RATE_LIMIT_MAX
+        value: "100"
